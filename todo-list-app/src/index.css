@@ -1,0 +1,48 @@
+html {
+  background-image: url('assets/background-to-do-list.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.to-do-list {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+.add-button, .delete-button {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 25px 20px;
+}
+
+input[type='text'] {
+  font-size: 1.6rem; 
+  padding: 10px;
+  border: 2px solid rgb(89, 86, 86);
+  border-radius: 5px;
+}
+
+ol {
+  padding: 0;
+}
+
+li {
+  margin-left:30%;
+  margin-right:30%;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: rgb(249, 243, 243);
+  margin-bottom: 10px;
+  border: 3px solid black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.text {
+  flex: 1;
+}
+
